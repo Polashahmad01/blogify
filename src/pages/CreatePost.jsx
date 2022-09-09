@@ -25,6 +25,7 @@ const CreatePost = () => {
   const handleClick = async () => {
 
     if(!input.title || !input.image || !input.description) {
+      alert('Plese fill the input fields');
       return
     }
 
